@@ -15,8 +15,8 @@ Compatible-Versions:
 - 0.0.12
 - 0.0.13
 - 0.0.14
-Cartridge-Vendor: redhat
-Vendor: redhat
+Cartridge-Vendor: bluehat
+Vendor: bluehat
 Categories:
 - web_framework
 - experimental
