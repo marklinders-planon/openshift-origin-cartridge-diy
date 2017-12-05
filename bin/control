@@ -2,7 +2,7 @@
 source $OPENSHIFT_CARTRIDGE_SDK_BASH
 
 function run_hook() {
-  nc -l localhost 8099 > $OPENSHIFT_LOG_DIR/nclog.log
+  nc -l localhost 8099 > $OPENSHIFT_LOG_DIR/nclog.log &
   return 0
 #  local path="$OPENSHIFT_REPO_DIR/.openshift/action_hooks/$1"
 #  if [ -f "$path" -a -x "$path" ]
